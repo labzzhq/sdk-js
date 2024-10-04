@@ -1,0 +1,29 @@
+{
+  "name": "@labzzhq/sdk-js",
+  "version": "0.0.1",
+  "description": "The Labzz JavaScript SDK is a powerful and flexible tool designed to seamlessly integrate Labzz functionality into all Labzz products. This SDK provides developers with a comprehensive set of features to enhance their applications with Labzz's cutting-edge technologies.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project ./tsconfig.json --outDir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labzzhq/sdk-js.git"
+  },
+  "keywords": [
+    "labzz",
+    "sdk",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Labzz LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labzzhq/sdk-js/issues"
+  },
+  "homepage": "https://github.com/labzzhq/sdk-js#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
